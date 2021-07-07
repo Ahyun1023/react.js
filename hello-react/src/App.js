@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.css'
 
 /*function App() {
   const name = '리액트';
@@ -20,7 +20,14 @@ import './App.css';
 
 function App(){
   const name = 'react';
-  return <div class="react">{name}</div>
+  return(
+    <>
+    {/* 주석작성법 */}
+      <div class="react">{name}</div>
+      <input />
+    </>
+  )
+
 }
 
 export default App;
