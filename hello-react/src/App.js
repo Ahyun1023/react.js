@@ -5,7 +5,7 @@ import './App.css'
 
 const App = () => {
   //return <MyComponent name="React" />
-  return <MyComponent />
+  return  <MyComponent>리액트</MyComponent>
 }
 
 /*const App = () => {
