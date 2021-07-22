@@ -1,11 +1,13 @@
 import React from 'react';
 //import React, {Component} from 'react';
 //import MyComponent from './MyComponent';
-import Counter from './Counter';
+//import Counter from './Counter';
+//import Say from './Say';
+import EventPractice from './EventPractice';
 import './App.css'
 
 const App = () => {
-  return <Counter />
+  return <EventPractice />
 }
 
 /*const App = () => {
