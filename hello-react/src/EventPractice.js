@@ -4,7 +4,7 @@ class EventPratice extends Component {
     state = {
         message : ''
     }
-    
+
     render() {
         return (
             <div>
@@ -22,6 +22,14 @@ class EventPratice extends Component {
                         }
                     }
                 />
+                <button onClick={
+                    () => {
+                        alert(this.state.message);
+                        this.setState({
+                            message: ''
+                        });
+                    }
+                }>확인</button>
             </div>
         )
     }
