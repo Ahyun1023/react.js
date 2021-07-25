@@ -5,19 +5,13 @@ class EventPratice extends Component {
         message : ''
     }
 
-    constructor(props) {
-        super(props);
-        this.handlerChange = this.handlerChange.bind(this);
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handlerChange(e) {
+    handlerChange = (e) => {
         this.setState({
             message: e.target.value
         });
     }
 
-    handleClick(e) {
+    handleClick = () => {
         this.setState({
             message: ''
         })
